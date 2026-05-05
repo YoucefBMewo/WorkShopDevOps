@@ -1,0 +1,29 @@
+{
+  "name": "workshopdevops",
+  "version": "1.0.0",
+  "description": "tp workshopDevOps",
+  "homepage": "https://github.com/YoucefBMewo/WorkShopDevOps#readme",
+  "bugs": {
+    "url": "https://github.com/YoucefBMewo/WorkShopDevOps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoucefBMewo/WorkShopDevOps.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+   "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "jest": "^30.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0"
+  }
+}
